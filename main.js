@@ -263,11 +263,11 @@ function init() {
     addColorGUI(material, "Geometry Color", { color: 0xffffff }, colorGUI);
     colorGUI.open();
 
-    var lightGUI = gui.addFolder("Light Control");
-    lightGUI.add(pointLight, "intensity", 1, 20, 1).name("Intensity");
-    lightGUI.add(pointLight, "distance", 1, 200, 1).name("Distance");
-    addColorGUI(pointLight, "Light Color", { color: 0xffffff }, lightGUI);
-    lightGUI.open();
+    // var lightGUI = gui.addFolder("Light Control");
+    // lightGUI.add(pointLight, "intensity", 1, 20, 1).name("Intensity");
+    // lightGUI.add(pointLight, "distance", 1, 200, 1).name("Distance");
+    // addColorGUI(pointLight, "Light Color", { color: 0xffffff }, lightGUI);
+    // lightGUI.open();
 
     update(renderer, scene, camera, controls);
 }
